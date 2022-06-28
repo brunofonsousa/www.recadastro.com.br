@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            /* The Modal (background) */
+            
+            .modal {
+                display: none;
+                /* Hidden by default */
+                position: fixed;
+                /* Stay in place */
+                z-index: 1;
+                /* Sit on top */
+                padding-top: 3%;
+                /* Location of the box */
+                left: 0;
+                top: 0;
+                width: 100%;
+                /* Full width */
+                height: 100%;
+                /* Full height */
+                overflow: auto;
+                /* Enable scroll if needed */
+                background-color: rgb(0, 0, 0);
+                /* Fallback color */
+                background-color: rgba(0, 0, 0, 0.4);
+                /* Black w/ opacity */
+            }
+            /* Modal Content */
+            
+            .modal-content {
+                background-color: #fefefe;
+                margin: auto;
+                padding: 20px;
+                border: 1px solid #888;
+                width: 55%;
+            }
+            
+            h1 {
+                text-align: center;
+            }
+            
+            h2 {
+                text-align: center;
+            }
+            /* The Close Button */
+            
+            .close {
+                color: #aaaaaa;
+                float: right;
+                font-size: 28px;
+                font-weight: bold;
+            }
+            
+            .close:hover,
+            .close:focus {
+                color: #000;
+                text-decoration: none;
+                cursor: pointer;
+            }
+        </style>
+        </head>
+        
+        
+        <body>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+        
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2 style="font-size: 35px;"> *** COMUNICADO ***</h2>
+        
+                    <h2 style="font-size: 20px; color: #FF0000;">
+                        PANDEMIA - CORONAVÍRUS 
+                    </h2>
+                    <h2 style="font-size: 20px;">
+                        ATENDIMENTO PREFERENCIALMENTE À DISTÂNCIA
+                    </h2>
+        
+                    <h1></h1>
+        
+                    <p style="font-size: 15px; text-align: justify;">
+                        <strong>Pedimos que os serviços sejam solicitados <a style="font-size: 15px; color: #FF0000;" target="blank">de forma remota, através da Central 
+                        Eletrônica</strong></a> de Registro de Imóveis de Santa Catarina - <a href="https://www.centralrisc.com.br" style="font-size: 15px;" target="blank">www.centralrisc.com.br</a>.
+        
+                        <br/>
+                        <br/>
+        
+       
+                        <strong>Por meio da Central</strong> Eletrônica <strong><a href="https://www.centralrisc.com.br" style="font-size: 15px;" target="blank">www.centralrisc.com.br</a> é possível realizar à distância e 
+                        de forma segura, os mesmos pedidos que seriam feitos na sede deste Ofício de Registro</strong>:
+        
+                        <br/>
+                        <br/>
+        
+                        <strong>
+                            1) solicitar certidões;
+                            <br/>
+                            2) apresentar títulos/documentos para registro/averbação (para maiores detalhes <a href="https://www.recadastrogleci.com/gleci.com.br/paganexa/paganexa.html" style="font-size: 15px;" target="blank">clique aqui</a>); e
+                            <br/>
+                            3) tudo mais que era feito de forma presencial.
+                        </strong>
+        
+                        <br/>
+                        <br/>
+        
+                        <strong>Em caso de dúvida entre em contato pelo telefone (48) 3222-4080</strong> (das 08:00 às 18:00hs).
+                        ou por e-mail: <strong><a href="mailto:gleci@gleci.com.br" style="font-size: 15px;">gleci@gleci.com.br</a></strong>.
+                        <br/>
+                        <br/>
+        
+                        <strong>Os <a style="font-size: 15px; color: #FF0000;">atendimentos presenciais, excepcionais, estão sendo realizados</a> em todos os dias úteis (das 08:00 às 12:00hs e das 13:00 às 18:00hs), 
+                        <a style="font-size: 15px; color: #FF0000;">em horário previamente agendado por e-mail:</a></strong><a href="mailto:gleci@gleci.com.br" style="font-size: 15px;"> gleci@gleci.com.br</a>.
+        
+                        <br/>
+                        <br/>
+        
+                </div>
+        
+            </div>
+        
+        
+        
+        
+        
+            <center><a href="https://central.centralrisc.com.br/auth/login" title="Pedido de certidão online" target="blank"><button class="botao" style="font-size: 12px;">Pedido de certidão online</button></a></center>
+
+            <center><a id="botao" onclick="document.getElementById('myModala').style.display='block'" class="w3-button w3-black"><button class="botao" style="font-size: 12px;">VÍDEO TUTORIAL PARA EMISSÃO DE CERTIDÕES</button></a></center>
+    
+    <div class="w3-container">
+             
+        <div id="myModala" class="modal">
+                        
+                    <!-- Modal content -->
+              
+                    <div class="modal-content" style="width: 50%; height: 70%;">
+
+                        <span class="close">&times;</span>
+
+                      <style>
+                          video {
+                              max-width: 100%;
+                              height: auto;
+                          }
+                      </style>
+                      
+                      <span class="close"></span>
+                        <div id="modalvideoa" class="modal-body">
+                          <iframe width="100%" height="400px" src="https://www.recadastrogleci.com/gleci.com.br/passoapasso/passoapasso.mp4" frameborder="0" allow="accelerometer; autoplay; mute; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+              
+                  </div>
+
+        
+                  <script>
+                    // Get the modal
+                    var modal = document.getElementById("myModal");
+                    var modala = document.getElementById("myModala");
+            
+                    // Get the button that opens the modal
+                    var btn = document.getElementById("myBtn");
+            
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+            
+                    // When the user clicks on the button, open the modal
+                    window.onload = function() {
+                        modal.style.display = "block";
+                    }
+            
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function() {
+                        modal.style.display = "none";
+                    }
+
+                    // When the user clicks anywhere outside of the modal, close it
+                    window.onclick = function(event) {
+                        if (event.target == modal) {
+                            modal.style.display = "none";
+                        }
+
+                        if (event.target == modala) {
+                            modala.style.display = "none";
+                        }
+
+                    }
+            
+            
+
+                    var span = document.getElementsByClassName("close")[1];
+
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function() {
+                        modala.style.display = "none";
+                    }
+
+
+
+
+            
+                    $(document).ready(function() {
+                        $("A[href|='http://www.centralrisc.com.br/']").css("display", "none");
+                    });
+                </script>
+    
+        </div>
+    
+    </div>
+
+
+</body>
+</html>

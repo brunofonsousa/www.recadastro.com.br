@@ -1,0 +1,116 @@
+body {
+background-color: #000;
+}
+
+
+/* INDICADORES (Livro 5) */
+.botao_geral_indicadores {
+width: 300px;
+height: 100px;
+background: white;
+border-radius:5px;
+color:#FFF;
+text-shadow:3px 3px 3px 3px #949494;
+margin-top: 60px;
+margin-left:80px;
+border: 0.9px;
+border-radius:40px 40px 40px 40px;
+}
+
+
+.botao_geral_indicadores:hover {
+opacity: 0.7;
+background: #BCAAA9;
+border-top: 3px solid #BCAAA9;
+border-bottom: 3px solid #BCAAA9;
+border-right: 3px solid #BCAAA9;
+border-left: 3px solid #BCAAA9;
+}
+
+p#indicadores{
+width: 300px;
+height: 0px;
+font-family:'Arial Narrow',sans-serif;
+margin-top: 10px;
+margin-bottom: 0px;
+margin-left:170px;
+font-size: 13px;
+font-style: italic;
+color: #FFF;
+}
+
+
+
+/* MATRÍCULAS (Campos) */
+.botao_geral_matcampo {
+width: 300px;
+height: 100px;
+background: white;
+border-radius:5px;
+color:#FFF;
+text-shadow:3px 3px 3px 3px #949494;
+margin-top: 60px;
+margin-left:480px;
+border: 0.9px;
+border-radius:40px 40px 40px 40px;
+}
+
+
+.botao_geral_matcampo:hover {
+opacity: 0.7;
+background: #BCAAA9;
+border-top: 3px solid #BCAAA9;
+border-bottom: 3px solid #BCAAA9;
+border-right: 3px solid #BCAAA9;
+border-left: 3px solid #BCAAA9;
+}
+
+p#matriculacampo{
+width: 300px;
+height: 0px;
+font-family:'Arial Narrow',sans-serif;
+margin-top: 10px;
+margin-bottom: 0px;
+margin-left:575px;
+font-size: 13px;
+font-style: italic;
+color: #FFF;
+}
+
+
+
+/* MATRÍCULAS (Anotações) */
+.botao_geral_matanota {
+width: 300px;
+height: 100px;
+background: white;
+border-radius:5px;
+color:#FFF;
+text-shadow:3px 3px 3px 3px #949494;
+margin-top: 50px;
+margin-left:900px;
+border: 0.9px;
+border-radius:40px 40px 40px 40px;
+}
+
+.botao_geral_matanota:hover {
+opacity: 0.7;
+background: #BCAAA9;
+border-top: 3px solid #BCAAA9;
+border-bottom: 3px solid #BCAAA9;
+border-right: 3px solid #BCAAA9;
+border-left: 3px solid #BCAAA9;
+}
+
+p#matriculanota{
+width: 300px;
+height: 0px;
+font-family:'Arial Narrow',sans-serif;
+margin-top: 10px;
+margin-bottom: 0px;
+margin-left:995px;
+font-size: 13px;
+font-style: italic;
+color: #FFF;
+}
+

@@ -1,0 +1,8 @@
+Para colocar o programa no inicilializador:
+
+- No menu iniciar, em executar coloque:
+
+%AppData%\Microsoft\Windows\Start Menu\Programs\Startup
+
+
+- Quando a pasta abrir, jogue dentro dela um atalho do programa (DI).
